@@ -1,2 +1,2 @@
 # FazeelShaikh.github.io
-index.html
+myportfolio/resume - https://fazeelshaikh.github.io/
