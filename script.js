@@ -1,1 +1,12 @@
-console.log("portfolio loaded successfully!);
+// Portfolio Loaded
+console.log("Portfolio Loaded Successfully!");
+
+// Smooth scrolling
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth"
+    });
+  });
+});
